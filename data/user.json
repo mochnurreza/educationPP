@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "firstName": "Senju",
+        "lastName": "Hashirama",
+        "username": "Hokage1",
+        "password": "hashiramaa",
+        "email":"hashirama@hokage.com"
+    },
+    {
+        "id": 2,
+        "firstName": "Senju",
+        "lastName": "Tobirama",
+        "username": "Hokage2",
+        "password": "tobiramaa",
+        "email":"tobirama@hokage.com"
+    },
+    {
+        "id": 3,
+        "firstName": "Sarutobi",
+        "lastName": "Hiruzen",
+        "username": "Hokage3",
+        "password": "sarutobii",
+        "email":"sarutobi@hokage.com"
+    },
+    {
+        "id": 4,
+        "firstName": "Namikaze",
+        "lastName": "Minato",
+        "username": "Hokage4",
+        "password": "namikazee",
+        "email":"minato@hokage.com"
+    },
+    {
+        "id": 5,
+        "firstName": "Tsunade",
+        "lastName": "Tsunade",
+        "username": "Hokage5",
+        "password": "tsunadee",
+        "email":"tsunade@hokage.com"
+    },
+    {
+        "id": 6,
+        "firstName": "Hatake",
+        "lastName": "Kakashi",
+        "username": "Hokage6",
+        "password": "kakashii",
+        "email":"kakashi@hokage.com"
+    },
+    {
+        "id": 7,
+        "firstName": "Uzumaki",
+        "lastName": "Naruto",
+        "username": "Hokage7",
+        "password": "narutoo",
+        "email":"naruto@hokage.com"
+    }
+]
