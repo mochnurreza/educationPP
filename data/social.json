@@ -2,26 +2,61 @@
     {
         "question": "Siapa yang menjahit Bendera Merah-Putih?",
         "correct": "Fatmawati",
-        "wrong": "Sayuti Melik" 
+        "wrong": "Sayuti Melik",
+        "level": "Hard"
     },
     {
         "question": "Siapa pengibar bendera pertama kali setelah pembacaan teks proklamasi?",
         "correct": "Soehoed dan Latief Hendraningrat",
-        "wrong": "Abdulrachman Saleh dan Joesoef Ronodipoero"
+        "wrong": "Abdulrachman Saleh dan Joesoef Ronodipoero",
+        "level": "Hard"
     },
     {
         "question": "Tokoh yang pertama kali mendengar info kekalahan Jepang ialah?",
         "correct": "Sutan Syahrir",
-        "wrong": "Jenderal Besar Soedirman"
+        "wrong": "Jenderal Besar Soedirman",
+        "level": "Hard"
     },
     {
         "question": "Siapa nama yang menyebarkan berita tentang Kemerdekaan Indonesia di berbagai media?",
         "correct": "B.M. Diah",
-        "wrong": "Sus Salamun"
+        "wrong": "Sus Salamun",
+        "level": "Hard"
     },
     {
         "question": "Siapakah yang mengetik naskah teks Proklamasi?",
         "correct": "Sayuti Melik",
-        "wrong": "Chaerul Saleh"
+        "wrong": "Chaerul Saleh",
+        "level": "Hard"
+    },
+    {
+        "question": "Hari Pahlawan diperingati setiap tanggal?",
+        "correct": "10 November",
+        "wrong": "1 Mei",
+        "level": "Easy"
+    },
+    {
+        "question": "Dokuritsu Junbi Inkai dalam bahasa Indonesia adalah",
+        "correct": "PPKI",
+        "wrong": "BPUPKI",
+        "level": "Easy"
+    },
+    {
+        "question": "Pembangunan Jalan Raya Anyer sampai Panarukan dibangun pada masa pemerintahan?",
+        "correct": "Herman Willem Daendels",
+        "wrong": "Jan Pieterszoon Coen",
+        "level": "Easy"
+    },
+    {
+        "question": "Istilah kerja paksa dalam penjajahan Belanda adalah ?",
+        "correct": "Kerja rodi",
+        "wrong": "Romusha",
+        "level": "Easy"
+    },
+    {
+        "question": "Pencipta lagu Indonesia Raya adalah?",
+        "correct": "Wage Rudolf Soepratman",
+        "wrong": "Ismail Marzuki",
+        "level": "Easy"
     }
 ]

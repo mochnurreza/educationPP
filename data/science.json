@@ -2,26 +2,61 @@
     {
         "question": "Tekanan yang diberikan pada zat cair di dalam ruang tertutup akan diteruskan oleh zat cair itu ke segala arah dengan sama besar. Kalimat diatas merupakan bunyi hukum ?",
         "correct": "Hukum Pascal",
-        "wrong": "Hukum Newton" 
+        "wrong": "Hukum Newton",
+        "level": "Hard"
     },
     {
         "question": "Apakah nama latin Melinjo ?",
         "correct": "Gnetum Gnemon",
-        "wrong": "Musa Paradisiaca"
+        "wrong": "Musa Paradisiaca",
+        "level": "Hard"
     },
     {
         "question": "Berapa jumlah kromoson manusia ?",
         "correct": "46",
-        "wrong": "44"
+        "wrong": "44",
+        "level": "Hard"
     },
     {
         "question": "CH4 adalah senyawa",
         "correct": "Metana",
-        "wrong": "Sulfur"
+        "wrong": "Sulfur",
+        "level": "Hard"
     },
     {
         "question": "Berapa panjang gelombang yg bisa didengar oleh telinga manusia?",
         "correct": "20 Hz hingga 20.000 Hz",
-        "wrong": "3.000 Hz-120.000 Hz"
+        "wrong": "3.000 Hz-120.000 Hz",
+        "level": "Hard"
+    },
+    {
+        "question": "Engsel yang dapat memutar segala arah?",
+        "correct": "Sendi Peluru",
+        "wrong": "Sendi Putar",
+        "level": "Easy"
+    },
+    {
+        "question": "Apakah rumus kimia Etanol?",
+        "correct": "C2H5OH",
+        "wrong": "CH3OH",
+        "level": "Easy"
+    },
+    {
+        "question": "Hukum pewarisan sifat pada organisme dikenal sebagai?",
+        "correct": "Hukum Mendel",
+        "wrong": "Hukum Archimedes",
+        "level": "Easy"
+    },
+    {
+        "question": "Apakah massa jenis air lebih besar dari massa jenis minyak goreng?",
+        "correct": "Benar",
+        "wrong": "Salah",
+        "level": "Easy"
+    },
+    {
+        "question": "Berapa kalori air es?",
+        "correct": "0 kcal",
+        "wrong": "1 kcal",
+        "level": "Easy"
     }
 ]
