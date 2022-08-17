@@ -6,7 +6,8 @@
         "username": "Hokage1",
         "password": "hashiramaa",
         "email": "hashirama@hokage.com",
-        "score": 80
+        "score": 80,
+        "CategoryId":1
     },
     {
         "id": 2,
@@ -15,7 +16,8 @@
         "username": "Hokage2",
         "password": "tobiramaa",
         "email": "tobirama@hokage.com",
-        "score": 90
+        "score": 90,
+        "CategoryId":1
     },
     {
         "id": 3,
@@ -24,7 +26,8 @@
         "username": "Hokage3",
         "password": "sarutobii",
         "email": "sarutobi@hokage.com",
-        "score": 75
+        "score": 75,
+        "CategoryId":1
     },
     {
         "id": 4,
@@ -33,7 +36,8 @@
         "username": "Hokage4",
         "password": "namikazee",
         "email": "minato@hokage.com",
-        "score": 70
+        "score": 70,
+        "CategoryId":2
     },
     {
         "id": 5,
@@ -42,7 +46,8 @@
         "username": "Hokage5",
         "password": "tsunadee",
         "email": "tsunade@hokage.com",
-        "score": 95
+        "score": 95,
+        "CategoryId":2
     },
     {
         "id": 6,
@@ -51,7 +56,8 @@
         "username": "Hokage6",
         "password": "kakashii",
         "email": "kakashi@hokage.com",
-        "score": 60
+        "score": 60,
+        "CategoryId":2
     },
     {
         "id": 7,
@@ -60,6 +66,7 @@
         "username": "Hokage7",
         "password": "narutoo",
         "email": "naruto@hokage.com",
-        "score": 100
+        "score": 100,
+        "CategoryId":1
     }
 ]

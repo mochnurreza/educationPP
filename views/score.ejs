@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EducationPP</title>
+</head>
+
+<body>
+    <br>
+    Sort by:
+    <a href="/score/?category=ASC"><button type="button" style="color:#0069cb; background:#ffffff">Category</button></a>
+    <a href="/score/?username=ASC"><button type="button" style="color:#0069cb; background:#ffffff">Username</button></a>
+    <a href="/score/?score=ASC"><button type="button" style="color:#0069cb; background:#ffffff">Score</button></a>
+    <br>
+    <table border="1">
+        <thead style="text-align:center">
+            <th>Category</th>
+            <th>Username</th>
+            <th>Score</th>
+        </thead>
+        <tbody style="text-align:center"></tbody>
+        <% detail.forEach(x=>{ %>
+            <%x.Users.forEach(el=> { %>
+                <tr>
+                    <td>
+                        <%=x.category%>
+                    </td>
+                    <td>
+                        <%=el.username%>
+                    </td>
+                    <td>
+                        <%=el.score%>
+                    </td>
+                </tr>
+                <% }) %>
+                    <%})%>
+                        </tbody>
+    </table>
+</body>
+
+</html>
