@@ -3,120 +3,140 @@
         "id": 1,
         "question": "Tekanan yang diberikan pada zat cair di dalam ruang tertutup akan diteruskan oleh zat cair itu ke segala arah dengan sama besar. Kalimat diatas merupakan bunyi hukum ?",
         "correct": "Hukum Pascal",
-        "wrong": "Hukum Newton"
+        "wrong": "Hukum Newton",
+        "categoryId": 1
     },
     {
-        "id": 1,
+        "id": 2,
         "question": "Apakah nama latin Melinjo ?",
         "correct": "Gnetum Gnemon",
-        "wrong": "Musa Paradisiaca"
+        "wrong": "Musa Paradisiaca",
+        "categoryId": 1
     },
     {
-        "id": 1,
+        "id": 3,
         "question": "Berapa jumlah kromoson manusia ?",
         "correct": "46",
-        "wrong": "44"
+        "wrong": "44",
+        "categoryId": 1
     },
     {
-        "id": 1,
+        "id": 4,
         "question": "CH4 adalah senyawa",
         "correct": "Metana",
-        "wrong": "Sulfur"
+        "wrong": "Sulfur",
+        "categoryId": 1
     },
     {
-        "id": 1,
+        "id": 5,
         "question": "Berapa panjang gelombang yg bisa didengar oleh telinga manusia?",
         "correct": "20 Hz hingga 20.000 Hz",
-        "wrong": "3.000 Hz-120.000 Hz"
+        "wrong": "3.000 Hz-120.000 Hz",
+        "categoryId": 1
     },
     {
-        "id": 1,
+        "id": 6,
         "question": "Engsel yang dapat memutar segala arah?",
         "correct": "Sendi Peluru",
-        "wrong": "Sendi Putar"
+        "wrong": "Sendi Putar",
+        "categoryId": 1
     },
     {
-        "id": 1,
+        "id": 7,
         "question": "Apakah rumus kimia Etanol?",
         "correct": "C2H5OH",
-        "wrong": "CH3OH"
+        "wrong": "CH3OH",
+        "categoryId": 1
     },
     {
-        "id": 1,
+        "id": 8,
         "question": "Hukum pewarisan sifat pada organisme dikenal sebagai?",
         "correct": "Hukum Mendel",
-        "wrong": "Hukum Archimedes"
+        "wrong": "Hukum Archimedes",
+        "categoryId": 1
     },
     {
-        "id": 1,
+        "id": 9,
         "question": "Apakah massa jenis air lebih besar dari massa jenis minyak goreng?",
         "correct": "Benar",
-        "wrong": "Salah"
+        "wrong": "Salah",
+        "categoryId": 1
     },
     {
-        "id": 1,
+        "id": 10,
         "question": "Berapa kalori air es?",
         "correct": "0 kcal",
-        "wrong": "1 kcal"
+        "wrong": "1 kcal",
+        "categoryId": 1
     },
     {
-        "id": 2,
+        "id": 11,
         "question": "Siapa yang menjahit Bendera Merah-Putih?",
         "correct": "Fatmawati",
-        "wrong": "Sayuti Melik"
+        "wrong": "Sayuti Melik",
+        "categoryId": 2
     },
     {
-        "id": 2,
+        "id": 12,
         "question": "Siapa pengibar bendera pertama kali setelah pembacaan teks proklamasi?",
         "correct": "Soehoed dan Latief Hendraningrat",
-        "wrong": "Abdulrachman Saleh dan Joesoef Ronodipoero"
+        "wrong": "Abdulrachman Saleh dan Joesoef Ronodipoero",
+        "categoryId": 2
     },
     {
-        "id": 2,
+        "id": 13,
         "question": "Tokoh yang pertama kali mendengar info kekalahan Jepang ialah?",
         "correct": "Sutan Syahrir",
-        "wrong": "Jenderal Besar Soedirman"
+        "wrong": "Jenderal Besar Soedirman",
+        "categoryId": 2
     },
     {
-        "id": 2,
+        "id": 14,
         "question": "Siapa nama yang menyebarkan berita tentang Kemerdekaan Indonesia di berbagai media?",
         "correct": "B.M. Diah",
-        "wrong": "Sus Salamun"
+        "wrong": "Sus Salamun",
+        "categoryId": 2
     },
     {
-        "id": 2,
+        "id": 15,
         "question": "Siapakah yang mengetik naskah teks Proklamasi?",
         "correct": "Sayuti Melik",
-        "wrong": "Chaerul Saleh"
+        "wrong": "Chaerul Saleh",
+        "categoryId": 2
     },
     {
-        "id": 2,
+        "id": 16,
         "question": "Hari Pahlawan diperingati setiap tanggal?",
         "correct": "10 November",
-        "wrong": "1 Mei"
+        "wrong": "1 Mei",
+        "categoryId": 2
     },
     {
-        "id": 2,
+        "id": 17,
         "question": "Dokuritsu Junbi Inkai dalam bahasa Indonesia adalah",
         "correct": "PPKI",
-        "wrong": "BPUPKI"
+        "wrong": "BPUPKI",
+        "categoryId": 2
     },
     {
-        "id": 2,
+        "id": 18,
         "question": "Pembangunan Jalan Raya Anyer sampai Panarukan dibangun pada masa pemerintahan?",
         "correct": "Herman Willem Daendels",
-        "wrong": "Jan Pieterszoon Coen"
+        "wrong": "Jan Pieterszoon Coen",
+        "categoryId": 2
     },
     {
-        "id": 2,
+        "id": 19,
         "question": "Istilah kerja paksa dalam penjajahan Belanda adalah ?",
         "correct": "Kerja rodi",
-        "wrong": "Romusha"
+        "wrong": "Romusha",
+        "categoryId": 2
     },
     {
-        "id": 2,
+        "id": 20,
         "question": "Pencipta lagu Indonesia Raya adalah?",
         "correct": "Wage Rudolf Soepratman",
-        "wrong": "Ismail Marzuki"
+        "wrong": "Ismail Marzuki",
+        "categoryId": 2
     }
 ]
