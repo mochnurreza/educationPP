@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "firstName": "Senju",
+        "lastName": "Hashirama",
+        "username": "Hokage1",
+        "password": "hashiramaa"
+    },
+    {
+        "id": 2,
+        "firstName": "Senju",
+        "lastName": "Tobirama",
+        "username": "Hokage2",
+        "password": "tobiramaa"
+    },
+    {
+        "id": 3,
+        "firstName": "Sarutobi",
+        "lastName": "Hiruzen",
+        "username": "Hokage3",
+        "password": "sarutobii"
+    },
+    {
+        "id": 4,
+        "firstName": "Namikaze",
+        "lastName": "Minato",
+        "username": "Hokage4",
+        "password": "namikazee"
+    },
+    {
+        "id": 5,
+        "firstName": "Tsunade",
+        "lastName": "Tsunade",
+        "username": "Hokage5",
+        "password": "tsunadee"
+    },
+    {
+        "id": 6,
+        "firstName": "Hatake",
+        "lastName": "Kakashi",
+        "username": "Hokage6",
+        "password": "kakashii"
+    },
+    {
+        "id": 7,
+        "firstName": "Uzumaki",
+        "lastName": "Naruto",
+        "username": "Hokage7",
+        "password": "narutoo"
+    }
+]
