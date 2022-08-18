@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+</head>
+
+<body>
+    <form action="/admin/add" method="post">
+        <label for="email">Email</label>
+        <br>
+        <br>
+        <input type="text" id ="email" name="email">
+        <br>
+        <br>
+        <label for="password">Password</label>
+        <br>
+        <br>
+        <input type="password" id ="password" name="password">
+        <br>
+        <br>
+        <label for="role">Daftar sebagai:</label>
+        <input type="radio" id="user" name="role" value="User">
+        <label for="user"> User</label>
+        <input type="radio" id="admin" name="role" value="Admin">
+        <label for="admin"> Admin</label>
+        <br>
+        <input type="submit" value="Sign Up">
+    </form>
+</body>
+</html>

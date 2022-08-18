@@ -1,0 +1,12 @@
+[
+    {
+        "email": "hashirama@hokage.com",
+        "password": "hashiramaa",
+        "role": "admin"
+    },
+    {
+        "email": "tobirama@hokage.com",
+        "password": "tobiramaa",
+        "role":"user"
+    }
+]
