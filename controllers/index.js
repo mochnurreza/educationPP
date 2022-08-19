@@ -8,16 +8,16 @@ class Controller {
         res.render('signIn')
     }
     static signInPost(req, res) {
-        const { email, password } = req.body
+        const { email, password , role} = req.body
         User.findOne({ where: { email } })
             .then(user => {
                 if (user) {
                     const isValidPassword = bcrypt.compareSync(password, user.password)
                     if (isValidPassword) {
-                        if (role == user) {
+                        if (role ==='user') {
                             return res.redirect('/user')
                         }
-                        if (role == admin) {
+                        if (role === "admin") {
                             return res.redirect('/admin')
                         }
                     }
@@ -88,7 +88,7 @@ class Controller {
         })
         Quiz.create({
             question: req.body.question,
-            AnswerId: Answer.id
+            AnswerId: req.body.AnswerId
         })
             .then(result => {
                 res.redirect ('/admin')
@@ -127,9 +127,9 @@ class Controller {
             })
     }
     static delete(req, res) {
-        Answer.destroy(
-            { where: { id: req.params.id } })
         Quiz.destroy(
+            { where: { id: req.params.id } })
+        Answer.destroy(
             { where: { id: req.params.id } })
             .then(result => {
                 res.redirect('/admin')
