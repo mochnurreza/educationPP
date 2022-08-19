@@ -7,8 +7,49 @@ class Controller {
     static signIn(req, res) {
         res.render('signIn')
     }
+    static signInPost(req, res) {
+        const { email, password } = req.body
+        User.findOne({ where: { email } })
+            .then(user => {
+                if (user) {
+                    const isValidPassword = bcrypt.compareSync(password, user.password)
+                    if (isValidPassword) {
+                        if (role == user) {
+                            return res.redirect('/user')
+                        }
+                        if (role == admin) {
+                            return res.redirect('/admin')
+                        }
+                    }
+                    else {
+                        const error = 'invalid email/password'
+                        return res.redirect(`/signIn?errorr+${error}`)
+                    }
+                }
+                else {
+                    const error = 'invalid email/password'
+                    return res.redirect(`/signIn?errorr+${error}`)
+                }
+            })
+            .catch(err => {
+                res.send(err)
+            })
+    }
     static signUp(req, res) {
         res.render('signUp')
+    }
+    static signUpPost(req, res) {
+        User.create({
+            email: req.body.email,
+            password: req.body.password,
+            role: req.body.role
+        })
+            .then(result => {
+                res.redirect(`/signIn`)
+            })
+            .catch(err => {
+                res.send(err)
+            })
     }
     static user(req, res) {
         Quiz.findAll()
@@ -50,8 +91,8 @@ class Controller {
             AnswerId: Answer.id
         })
             .then(result => {
-                // res.redirect ('/admin')
-                res.send(result)
+                res.redirect ('/admin')
+                // res.send(result)
             })
             .catch(err => {
                 res.send(err)

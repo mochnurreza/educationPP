@@ -18,8 +18,18 @@ module.exports = (sequelize, DataTypes) => {
     }
   }
   Quiz.init({
-    question: DataTypes.STRING,
-    AnswerId: DataTypes.INTEGER
+    question: {
+      type: DataTypes.STRING,
+      validate: {
+        notEmpty: { msg: "cant be empty" }
+      }
+    },
+    AnswerId: {
+      type: DataTypes.INTEGER,
+      validate: {
+        notEmpty: { msg: "cant be empty" }
+      }
+    }
   }, {
     sequelize,
     modelName: 'Quiz',

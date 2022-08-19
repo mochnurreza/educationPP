@@ -17,9 +17,24 @@ module.exports = (sequelize, DataTypes) => {
     }
   }
   Score.init({
-    score: DataTypes.INTEGER,
-    UserId: DataTypes.INTEGER,
-    QuestionId: DataTypes.INTEGER
+    score: {
+      type: DataTypes.INTEGER,
+      validate: {
+        notEmpty: { msg: "cant be empty" }
+      }
+    },
+    UserId: {
+      type: DataTypes.INTEGER,
+      validate: {
+        notEmpty: { msg: "cant be empty" }
+      }
+    },
+    QuestionId: {
+      type: DataTypes.INTEGER,
+      validate: {
+        notEmpty: { msg: "cant be empty" }
+      }
+    }
   }, {
     sequelize,
     modelName: 'Score',

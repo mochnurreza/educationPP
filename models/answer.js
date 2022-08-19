@@ -15,7 +15,12 @@ module.exports = (sequelize, DataTypes) => {
     }
   }
   Answer.init({
-    answer: DataTypes.STRING
+    answer: {
+      type: DataTypes.STRING,
+        validate: {
+        notEmpty: { msg: "cant be empty" }
+      }
+    }
   }, {
     sequelize,
     modelName: 'Answer',
